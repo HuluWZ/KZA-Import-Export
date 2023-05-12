@@ -24,7 +24,8 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
-	
+	<script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lazy.plugins.min.js"></script>
 	
 	<style>
 	tr {
@@ -145,7 +146,7 @@ background: #707070;
 										<!-- <span class="navbar-toggler-icon"></span> -->
                 </button>
                 <a class="navbar-brand" href="index.html">
-									<img src="./img/logo-1.jpg" style="width:50px; height:50px;top:0px">
+									<img class="lazy" data-src="./img/logo-1.jpg" style="width:50px; height:50px;top:0px">
 									 KZA </a>
             </div>
 
@@ -250,25 +251,25 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/lex.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/lex.jpg" alt="Image" style="max-width:100%;">
 								</a>
 							<h5 style="text-align:center">Lexus</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/toyota.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/toyota.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Toyota</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/mit.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/mit.jpg" alt="Image" style="max-width:100%;">
 								</a>
 							<h5 style="text-align:center">Mitsubshi</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/nissan.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/nissan.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Nissa</h5>
 							</div>
@@ -281,25 +282,25 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/mer.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/mer.jpg" alt="Image" style="max-width:100%;">
 										<h5 style="text-align:center">Mercedes</h5>
 								</a>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/ford.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/ford.jpg" alt="Image" style="max-width:100%;">
 								</a>
 									<h5 style="text-align:center">Ford</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/kia1.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/kia1.jpg" alt="Image" style="max-width:100%;">
 								</a>
 									<h5 style="text-align:center">KIA</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/suz-1.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/suz-1.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Suzuki</h5>
 							</div>
@@ -329,25 +330,25 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/cat3.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/cat3.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Mixer</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/cat2.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/cat2.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">CAT</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/doosan.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/doosan.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Doosan</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/hitachi.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/hitachi.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Hitachi</h5>
 							</div>
@@ -360,13 +361,13 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/komatsu.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/komatsu.jpg" alt="Image" style="max-width:100%;">
 									<h5 style="text-align:center">Komatsu</h5>
 								</a>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/cement-plant.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/cement-plant.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Cement  Plant</h5>
 							</div>
@@ -397,40 +398,33 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/rice.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/rice.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Rice</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/sugar-2.jpeg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/sugar-2.jpeg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Sugar</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/oil-2.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/oil-2.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Oil</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/pulses.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/pulses.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Pulses</h5>
 							</div>
 						</div>
-						<!--.row-->
 					</div>
-					<!--.item-->
-
-					
-
 				</div>
-				<!--.carousel-inner-->
+				
 			</div>
-			<!--.Carousel-->
-
 		</div>
 	</div>
 </div>
@@ -449,25 +443,25 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/soap.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/soap.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Soap and Detergent</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/painting.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/painting.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Painting</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/oils.jpeg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/oils.jpeg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Edible Oil</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/food.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/food.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Food and Beverage</h5>
 							</div>
@@ -480,25 +474,25 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/sugar.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/sugar.jpg" alt="Image" style="max-width:100%;">
 									<h5 style="text-align:center">Sugar</h5>
 								</a>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/leather.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/leather.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Leather</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/water.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/water.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Water Purification</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/solar.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/solar.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Solar and Alternative Energy</h5>
 							</div>
@@ -528,35 +522,31 @@ background: #707070;
 						<div class="row">
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/fert-7.jpeg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/fert-7.jpeg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">NPK  (12.6 | 18.44) + TE </h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/fert-10.jpg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/fert-10.jpg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">(10.52.10 | 5.15.45+) high TE rate</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/fert-13.jpeg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/fert-13.jpeg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Urea Phosphate (UP)</h5>
 							</div>
 							<div class="col-md-3">
 								<a href="#">
-									<img src="img/fert-14.jpeg" alt="Image" style="max-width:100%;">
+									<img class="lazy" data-src="img/fert-14.jpeg" alt="Image" style="max-width:100%;">
 								</a>
 								<h5 style="text-align:center">Mono-Potassium Phosphate (MKP) & Mono-Ammonium Phosphate (MAP)</h5>
 							</div>
 						</div>
 						<!--.row-->
 					</div>
-					<!--.item-->
-
-
-
 				</div>
 				<!--.carousel-inner-->
 			</div>
@@ -579,10 +569,10 @@ background: #707070;
     <div class="col-sm-6">
 	 <div class="about_h1lm clearfix">
 	   <div class="about_h1l clearfix">
-	  <img src="img/logo-1.jpg" class="iw" alt="abc">
+	  <img class="lazy" data-src="img/logo-1.jpg" class="iw" alt="abc">
 	 </div>
 	   <div class="about_h1l1 clearfix">
-		  <img src="img/logo-2.jpg" class="iw" alt="abc">
+		  <img class="lazy" data-src="img/logo-2.jpg" class="iw" alt="abc">
 		 </div>
 	 </div>
 	 
@@ -826,7 +816,7 @@ background: #707070;
 		</div>
 		<div class="col-sm-6 space_right">
 		 <div class="clearfix supplyer_ili2 text-right">
-		   <img src="img/13.jpg" class="mgt" alt="abc">
+		   <img class="lazy" data-src="img/13.jpg" class="mgt" alt="abc">
 		 </div>
 		</div>
 	   </div>
@@ -845,7 +835,7 @@ background: #707070;
 		</div>
 		<div class="col-sm-6 space_right">
 		 <div class="clearfix supplyer_ili2 text-right">
-		   <img src="img/14.jpg" class="mgt" alt="abc">
+		   <img class="lazy" data-src="img/14.jpg" class="mgt" alt="abc">
 		 </div>
 		</div>
 	   </div>
@@ -978,7 +968,9 @@ background: #707070;
 <div id="toTop" class="btn btn-info" style="display: block; background:#000; color:#fff; border:none;"><span class="fa fa-chevron-up"></span></div>
 
 <script>
-
+ $(function() {
+        $('.lazy').Lazy();
+    });
 
 $(document).ready(function(){
   $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');

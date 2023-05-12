@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript"  src="js/jquery.lazy.min.js" ></script>
+		<script type="text/javascript"  src="js/jquery.lazy.plugins.min.js" ></script>
   </head>
   
 <body>
@@ -624,6 +626,11 @@
 <div id="toTop" class="btn btn-info" style="display: block; background:#000; color:#fff; border:none;"><span class="fa fa-chevron-up"></span></div>
 
 <script>
+
+	// $(function() {
+  //       $('.lazy').Lazy();
+  //   });
+
 $(document).ready(function(){
   $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
 	$(window).scroll(function () {
